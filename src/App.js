@@ -1,5 +1,9 @@
 
-import HelloWorld from './components/HelloWorld';
+import HelloWorld from 
+
+
+
+"./components/HelloWorld";
 
 function App() {
     return ( <div className = "App" >
@@ -7,7 +11,6 @@ function App() {
         <HelloWorld/>
         <HelloWorld/>
         </div>
-       
     );
 }
 
