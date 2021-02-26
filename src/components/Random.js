@@ -1,7 +1,7 @@
-function Random(props) {
-    return <h1>
-  {Math.floor(Math.random(props.min) * Math.floor(props.max))}
-  
-    </h1>}
+
+function Random( { min, max } ){
+    let Namber= Math.random() * (max - min) + min;
+    return <h1>{Namber.toFixed()}</h1>
+}
 
 export default Random;
