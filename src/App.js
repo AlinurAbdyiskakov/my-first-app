@@ -31,14 +31,7 @@ function App() {
        <List items={['Apple','kiwe']}/> 
          <Big a={5}b={4}/>   
         <Sum a={5} b={7}/>12
-     
-      
-      
-         
-       
-      
-    
-           </div>  )};
+    </div>  )};
 
 
 
