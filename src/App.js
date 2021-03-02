@@ -14,9 +14,10 @@ import Big from "./components/Big"
 import Random from "./components/Random"
 import List from "./components/List"
 import Sum from "./components/Sum"
+import Ulist from "./components/Ulist"
 function App() {
     return ( <div className = "App" >
-       <Book title="dark" auther="Stephen King"/>
+       {/* <Book title="dark" auther="Stephen King"/>
        <Song1 title="Perfect" auther="Ed Sheran" genre="Pop"/>
        <Song2 title="8 Mile" auther="Eminem" genre="Rop"/>
        <Lenght text="Example string"/>
@@ -30,7 +31,8 @@ function App() {
        <Random min={5}max={10}/>
        <List items={['Apple','kiwe']}/> 
          <Big a={5}b={4}/>   
-        <Sum a={5} b={7}/>12
+        <Sum a={5} b={7}/>12 */}
+        <Ulist items={["Hello","World"]}/>
     </div>  )};
 
 
