@@ -1,5 +1,5 @@
 
-// import GoodByWorld from "./components/GoodByWorld";
+
 // import Book from "./components/Book";
 // import Lenght from "./components/Lenght";
 // import Song1 from "./components/Song1";
@@ -14,7 +14,13 @@
 // import Random from "./components/Random"
 // import List from "./components/List"
 // import Sum from "./components/Sum"
-import Ulist from "./components/Ulist"
+// import Ulist from "./components/Ulist"
+// import Table from "./components/Table"
+ import Switch1 from "./components/Switch1"
+ import Number from "./components/Number"
+ import Name from "./components/Name"
+ import Text from "./components/Text"
+ import Inputs from "./components/Inputs"
 function App() {
     return ( <div className = "App" >
        {/* <Book title="dark" auther="Stephen King"/>
@@ -32,7 +38,17 @@ function App() {
        <List items={['Apple','kiwe']}/> 
          <Big a={5}b={4}/>   
         <Sum a={5} b={7}/>12 */}
-        <Ulist items={["Hello","World"]}/>
+        {/* <Ulist items={["Hello","World"]}/> */}
+        {/* <Table items={"hjdskkjlk","ddhjjked"}/> */}
+
+        <Switch1 />
+        <Number/>
+        <Name/>
+        <Text/>
+      <hr/>
+        <Inputs/>
+        <hr/>
+        <Shet/>
     </div>  )};
 
 

@@ -1,6 +1,6 @@
 function Ulist (props) {
     let list = [];
-    props.items.forEach((item)=>{
+    props.items.forEach((items)=>{
         list.push(<li>{list}</li>);
     }
 
