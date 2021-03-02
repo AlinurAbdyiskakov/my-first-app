@@ -1,19 +1,19 @@
 
-import GoodByWorld from "./components/GoodByWorld";
-import Book from "./components/Book";
-import Lenght from "./components/Lenght";
-import Song1 from "./components/Song1";
-import Power from "./components/Power"
-import Song2 from "./components/Song2";
-import Link from "./components/Link";
-import LowerCase from "./components/LowerCase";
-import UpperCase from "./components/UpperCase";
-import Round1 from "./components/Round1"
-import Switch from "./components/Switch"
-import Big from "./components/Big"
-import Random from "./components/Random"
-import List from "./components/List"
-import Sum from "./components/Sum"
+// import GoodByWorld from "./components/GoodByWorld";
+// import Book from "./components/Book";
+// import Lenght from "./components/Lenght";
+// import Song1 from "./components/Song1";
+// import Power from "./components/Power"
+// import Song2 from "./components/Song2";
+// import Link from "./components/Link";
+// import LowerCase from "./components/LowerCase";
+// import UpperCase from "./components/UpperCase";
+// import Round1 from "./components/Round1"
+// import Switch from "./components/Switch"
+// import Big from "./components/Big"
+// import Random from "./components/Random"
+// import List from "./components/List"
+// import Sum from "./components/Sum"
 import Ulist from "./components/Ulist"
 function App() {
     return ( <div className = "App" >
