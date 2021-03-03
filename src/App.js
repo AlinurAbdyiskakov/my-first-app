@@ -21,6 +21,7 @@
  import Name from "./components/Name"
  import Text from "./components/Text"
  import Inputs from "./components/Inputs"
+ import SheetLest from "./components/SheetLest"
 function App() {
     return ( <div className = "App" >
        {/* <Book title="dark" auther="Stephen King"/>
@@ -48,7 +49,9 @@ function App() {
       <hr/>
         <Inputs/>
         <hr/>
-        <Shet/>
+        <SheetLest/>
+        <hr/>
+        
     </div>  )};
 
 
